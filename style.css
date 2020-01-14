@@ -8,7 +8,7 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
-  background: #F2F2F2;
+  background: #181818;
   color: #323232;
 }
 
@@ -115,10 +115,15 @@ img.avatar {
   margin-bottom: 20px;
   font-size: 18px;
 }
+.job-title{
+  font-weight: bold;
+}
 
 .job-company {
   font-weight: bold;
   line-height: 1.2;
+  color:#000080;
+
   
 }
 
@@ -181,9 +186,19 @@ img.avatar {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
-
+ 
   .interests-container img {
     margin-right: 32px;
     margin-bottom: 16px;
   }
 }
+.date{
+       color: rgb(38, 128, 224);
+       font-weight: bold;
+
+}
+ .compt{
+
+  font-weight: bold;
+  color:#000080;
+ }
